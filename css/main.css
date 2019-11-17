@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.container-fluid {
+    background-image: url('https://i.pinimg.com/originals/db/e9/1a/dbe91a7d69bc985730026a7e0ada8e91.jpg');
+    background-repeat: round;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    background: -webkit-linear-gradient(left, rgb(148, 177, 232) 0%, rgb(12, 86, 246) 77%, rgb(2, 64, 179) 100%);
+    padding: 0px;
+}
+
+main {
+    width: 100%;
+    background: -webkit-linear-gradient(top, rgb(148, 177, 232) 0%, rgb(12, 86, 246) 77%, rgb(2, 64, 179) 100%);
+    
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: -webkit-linear-gradient(bottom, rgb(148, 177, 232) 0%, rgb(12, 86, 246) 77%, rgb(2, 64, 179) 100%);
+
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(217, 223, 240);
+}
+
+.listContent {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    background: -webkit-linear-gradient(right, rgb(148, 177, 232) 0%, rgb(12, 86, 246) 77%, rgb(2, 64, 179) 100%);
+
+    padding: 5px;
+    margin: 0;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+}
+
+.card {
+    margin: 15px;
+    width: 150px;
+    cursor: pointer;
+    transition: all 500ms;
+    opacity: 0.7;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    z-index: 2;
+    opacity: 1;
+    box-shadow: 8px 9px 20px 2px black;
+}
+
+.content {
+    flex-flow: row wrap;
+    position: relative;
+    justify-items: space-between;
+}
+
+.btn {
+    align-self: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+}
+
+span {
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(38, 0, 255);
+    width: 100%;
+    padding: 5px;
+}
+
+small {
+    font-size: 8px;
+}
+
+.sandwich {
+    width: 20px;
+    height: 2px;
+    background-color: rgba(168, 180, 248, 0.822);
+    margin-top: 2px;
+    transition: all 500ms;
+}
+
+.papa_sendwich {
+    width: 20px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.sandwich_panel {
+    position: absolute;
+    height: 100vh;
+    width: 100vh;
+    top: 35px;
+    left: -2500px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 500ms;
+    z-index: 3;
+}
+
+.papa_sendwich:hover .sandwich {
+    margin-top: 5px;
+    height: 4px;
+}
+
+/* Налаштування сендвіч панелі */
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background: -webkit-linear-gradient(right, rgba(175, 175, 175, 0.356) 0%, rgba(0, 0, 0, 0.616) 100%);
+    
+}
+
+.dropdown {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+}
+
+.dropdown.open .dropdown_menu {
+    display: block;
+}
+
+.dropdown_label {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 47, 255);
+    width: 100%;
+    cursor: pointer;
+    color: rgb(217, 223, 240);
+}
+
+.dropdown_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    border-radius: 5px;
+    border: solid 2px rgb(0, 47, 255);
+    position: absolute;
+    width: 100%;
+    top: 76px;
+    text-align: center;
+    padding: 10px 0;
+    color: rgb(217, 223, 240);
+    background-color: black;
+}
+
+.dropdown_menu li {
+    padding: 5px 10px;
+}
+
+.dropdown_menu li:hover {
+    background: -webkit-linear-gradient(right, rgb(148, 177, 232) 0%, rgb(12, 86, 246) 77%, rgb(2, 64, 179) 100%);
+
+
+    cursor: pointer;
+    color: rgb(217, 223, 240);
+}
+
+p {
+    color: rgb(80, 112, 255);
+    padding-left: 10px;
+}
+
+.droppdown {
+    position: relative;
+    right: 0px;
+    background: -webkit-linear-gradient(right, rgb(148, 177, 232) 0%, rgb(12, 86, 246) 77%, rgb(2, 64, 179) 100%);
+
+    height: 35px;
+}
+
+.lang {
+    position: absolute;
+    right: 10px;
+    top: -588px;
+    z-index: 1;
+    font-size: 22px;
+    color: rgb(217, 223, 240);
+}
+
+.dropdown-item {
+    background: -webkit-linear-gradient(right, rgb(148, 177, 232) 0%, rgb(12, 86, 246) 77%, rgb(2, 64, 179) 100%);
+
+    color: rgb(217, 223, 240);
+    width: 147%;
+}
+
+.show {
+    padding: 0;
+
+}
+
+label {
+    color: rgb(217, 223, 240);
+}
+
+footer {
+    text-align: center;
+}
+
+.news {
+    text-align: center;
+    color: rgb(217, 223, 240);
+    position: absolute;
+    top: 85px;
+    right: 522px;
+    z-index: 1;
+    opacity: 0.5;
+    transition: all 500ms;
+}
+
+.news:hover {
+    opacity: 1;
+}
+
+h5 {
+    text-transform: uppercase;
+    color: rgb(217, 223, 240);
+}
+
+.country .news {
+    position: absolute;
+}
+
+.country {
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: 7px;
+    opacity: 0.5;
+    transition: all 500ms;
+}
+
+.country:hover {
+    opacity: 1;
+}
+
+.SinoptikInformer {
+    width: 240px;
+}
+
+#video-bg {
+    position: relative;
+}
+
+.droppdown {
+    height: 0px;
+}
+
+.fa-arrow-up {
+    color: rgb(71, 71, 253);
+    font-size: 24px;
+}
+.galery
+{
+    width: 95%;
+    height: 250px;
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    display: flex;
+    flex-flow: row;
+    overflow: hidden;
+    z-index: 2;
+}
+.galery_img{
+    height: 200px;
+    margin: 15px;
+    position: relative;
+    left: 0px;
+}.img_list{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    transition: all 500ms;
+}
+
+
